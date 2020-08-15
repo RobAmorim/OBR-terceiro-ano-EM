@@ -1,0 +1,91 @@
+
+
+
+
+
+void Motors::forwardCM(int DistanceCm){
+
+	int pulses = 0;
+	pulses = DistanceCm * 360 / CircumferenceWheel;
+
+	resetEncoders();
+	resetAdjustMove();
+	readBegin();
+	do {
+		readEnd();
+		adjustMove();
+		forward(left_Speed_Adjust, right_Speed_Adjust);
+		DeltaEncoders();
+	} while(Delta_RIGHT < pulses && Delta_LEFT < pulses);
+	stop();
+	resetEncoders();
+	resetAdjustMove();
+}
+
+//=============================================================
+
+void Motors::forwardCM(int DistanceCm){
+
+
+int pulses = 0;
+	pulses = DistanceCm * 360 / CircumferenceWheel;
+
+	resetEncoders();
+	resetAdjustMove();
+	readBegin();
+
+while(Delta_RIGHT < pulses && Delta_LEFT < pulses)
+
+{
+	SharpRight.read(); 
+
+		if(SharpRight < 35cm)
+
+		{
+           break(); 
+		}
+        readEnd();
+		adjustMove();
+		forward(left_Speed_Adjust, right_Speed_Adjust);
+		DeltaEncoders();
+
+		
+}
+	stop();
+	resetEncoders();
+	resetAdjustMove();
+
+}
+//==========================================================
+
+//=============================================================
+
+void Motors::forwardCM(int DistanceCm){
+
+
+int pulses = 0;
+	pulses = DistanceCm * 360 / CircumferenceWheel;
+
+	resetEncoders();
+	resetAdjustMove();
+	readBegin();
+
+while(Delta_RIGHT < pulses && Delta_LEFT < pulses)||(SharpRight < 35cm)
+
+{
+	SharpRight.read(); 
+
+		
+        readEnd();
+		adjustMove();
+		forward(left_Speed_Adjust, right_Speed_Adjust);
+		DeltaEncoders();
+
+		
+}
+	stop();
+	resetEncoders();
+	resetAdjustMove();
+
+}
+//==========================================================
