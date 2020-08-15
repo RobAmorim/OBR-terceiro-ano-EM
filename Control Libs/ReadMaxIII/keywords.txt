@@ -1,0 +1,40 @@
+###################################
+# Syntax Coloring Map For Read
+###################################
+
+###################################
+# Datatypes (KEYWORD1)
+###################################
+
+Read	KEYWORD1
+
+###################################
+# Methods and Functions (KEYWORD2)
+###################################
+
+sharpRight	KEYWORD2
+sharpLeft	KEYWORD2
+colorRight	KEYWORD2
+colorLeft	KEYWORD2
+ultra	KEYWORD2	
+colorBegin	KEYWORD2
+verificationObstacle	KEYWORD2
+verificationRamp	KEYWORD2
+verificationColorRight	KEYWORD2
+verificationColorLeft	KEYWORD2
+reflectance	KEYWORD2
+valueLeftLine	KEYWORD2
+valueRightLine	KEYWORD2
+valueLeftCorner	KEYWORD2
+valueRightCorner	KEYWORD2
+valueRightEx	KEYWORD2
+valueLeftEx	KEYWORD2
+leftLine	KEYWORD2
+rightLine	KEYWORD2
+leftCorner	KEYWORD2
+rightCorner	KEYWORD2
+leftEx	KEYWORD2
+rightEx	KEYWORD2
+###################################
+# Constants (LITERAL1)
+###################################

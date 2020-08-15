@@ -1,0 +1,43 @@
+###################################
+# Syntax Coloring Map For ControlMotorsEncoder
+###################################
+
+###################################
+# Datatypes (KEYWORD1)
+###################################
+
+Motors	KEYWORD1
+Robot	KEYWORD1
+Robo	KEYWORD1
+Encoder	KEYWORD1
+ControlMotorsRobot	KEYWORD1
+
+###################################
+# Methods and Functions (KEYWORD2)
+###################################
+
+speed	KEYWORD2
+maxSpeed	KEYWORD2
+forward	KEYWORD2
+backward	KEYWORD2
+right	KEYWORD2
+left	KEYWORD2
+stop	KEYWORD2
+stopMicroseconds	KEYWORD2
+forwardEncoder	KEYWORD2
+backwardEncoder	KEYWORD2
+rightEncoder	KEYWORD2
+leftEncoder	KEYWORD2
+resetEncoders	KEYWORD2
+forwardCM	KEYWORD2
+backwardCM	KEYWORD2
+gyroBegin	KEYWORD2
+turnRight90	KEYWORD2 
+turnLeft90	KEYWORD2
+
+servoBegin	KEYWORD2
+clawDown	KEYWORD2
+clawClimb	KEYWORD2
+###################################
+# Constants (LITERAL1)
+###################################
